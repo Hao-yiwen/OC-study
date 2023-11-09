@@ -41,13 +41,22 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "XYZPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
         
+        NSString *myString = @"123213";
+        NSLog(@"%@", myString);
+        printf("%p", myString);
+        
         printf("您好");
+        
+        XYZPerson *person = [XYZPerson personWithFirstName:@"John" lastName:@"Applessed"];
+        
+        [person sayHello];
     }
     return 0;
 }
