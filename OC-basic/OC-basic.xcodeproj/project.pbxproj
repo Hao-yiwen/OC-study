@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		39599C3B2C117916000311EA /* printLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 39599C3A2C117916000311EA /* printLs.m */; };
 		F627781F2C10CD4200A07056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F627781E2C10CD4200A07056 /* main.m */; };
+		F673E5482C122244004FA015 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F673E5472C122244004FA015 /* Fraction.m */; };
+		F6912E272C122BA8001FED80 /* printOc.m in Sources */ = {isa = PBXBuildFile; fileRef = F6912E262C122BA8001FED80 /* printOc.m */; };
+		F6912E2B2C122EA4001FED80 /* Fraction+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = F6912E2A2C122EA4001FED80 /* Fraction+Extra.m */; };
+		F6F142E12C120B82008DD576 /* controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F142E02C120B82008DD576 /* controller.m */; };
+		F6F142E32C121162008DD576 /* operation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F142E22C121162008DD576 /* operation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		39599C3C2C117AC6000311EA /* printLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printLs.h; sourceTree = "<group>"; };
 		F627781B2C10CD4200A07056 /* OC-basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-basic"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F627781E2C10CD4200A07056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F673E5462C122239004FA015 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		F673E5472C122244004FA015 /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		F6912E262C122BA8001FED80 /* printOc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printOc.m; sourceTree = "<group>"; };
+		F6912E282C122BCA001FED80 /* printOc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printOc.h; sourceTree = "<group>"; };
+		F6912E292C122E96001FED80 /* Fraction+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fraction+Extra.h"; sourceTree = "<group>"; };
+		F6912E2A2C122EA4001FED80 /* Fraction+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Fraction+Extra.m"; sourceTree = "<group>"; };
+		F6F142DF2C120B74008DD576 /* controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = controller.h; sourceTree = "<group>"; };
+		F6F142E02C120B82008DD576 /* controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = controller.m; sourceTree = "<group>"; };
+		F6F142E22C121162008DD576 /* operation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = operation.m; sourceTree = "<group>"; };
+		F6F142E42C12116E008DD576 /* operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = operation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +75,37 @@
 		F627781D2C10CD4200A07056 /* OC-basic */ = {
 			isa = PBXGroup;
 			children = (
+				F6912E252C122B8B001FED80 /* base */,
+				F6912E242C122B79001FED80 /* oc_class */,
 				F627781E2C10CD4200A07056 /* main.m */,
-				39599C3A2C117916000311EA /* printLs.m */,
-				39599C3C2C117AC6000311EA /* printLs.h */,
 			);
 			path = "OC-basic";
+			sourceTree = "<group>";
+		};
+		F6912E242C122B79001FED80 /* oc_class */ = {
+			isa = PBXGroup;
+			children = (
+				F673E5462C122239004FA015 /* Fraction.h */,
+				F673E5472C122244004FA015 /* Fraction.m */,
+				F6912E262C122BA8001FED80 /* printOc.m */,
+				F6912E282C122BCA001FED80 /* printOc.h */,
+				F6912E292C122E96001FED80 /* Fraction+Extra.h */,
+				F6912E2A2C122EA4001FED80 /* Fraction+Extra.m */,
+			);
+			path = oc_class;
+			sourceTree = "<group>";
+		};
+		F6912E252C122B8B001FED80 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				39599C3A2C117916000311EA /* printLs.m */,
+				39599C3C2C117AC6000311EA /* printLs.h */,
+				F6F142DF2C120B74008DD576 /* controller.h */,
+				F6F142E02C120B82008DD576 /* controller.m */,
+				F6F142E22C121162008DD576 /* operation.m */,
+				F6F142E42C12116E008DD576 /* operation.h */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F142E12C120B82008DD576 /* controller.m in Sources */,
 				39599C3B2C117916000311EA /* printLs.m in Sources */,
 				F627781F2C10CD4200A07056 /* main.m in Sources */,
+				F6F142E32C121162008DD576 /* operation.m in Sources */,
+				F6912E2B2C122EA4001FED80 /* Fraction+Extra.m in Sources */,
+				F673E5482C122244004FA015 /* Fraction.m in Sources */,
+				F6912E272C122BA8001FED80 /* printOc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

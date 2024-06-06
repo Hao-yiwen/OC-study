@@ -7,6 +7,9 @@
 
 #import <Foundation/Foundation.h>
 #import "printLs.h"
+#import "controller.h"
+#import "operation.h"
+#import "printOc.h"
 
 @protocol Test <NSObject>
 - (void) makeSome;
@@ -71,6 +74,12 @@ int main(int argc, const char * argv[]) {
         [sampleClass methodWithTwoArg:20 aaa:40];
         
         printLs();
+        
+        printController();
+        
+        printOperation();
+        // oc对象部分学习
+        printOc();
     }
     return 0;
 }
