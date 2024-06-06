@@ -58,4 +58,11 @@ void printLs(void){
     
     NSLog(@"ptr %p", poninter);
     
+    
+    int arr[]={1,23,4};
+    int* p = arr;
+    NSLog(@"%p", p);
+    int* z=&arr;
+    NSLog(@"%p", z);
+    
 }
