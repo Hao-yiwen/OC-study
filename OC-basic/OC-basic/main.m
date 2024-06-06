@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "printLs.h"
 
 @protocol Test <NSObject>
 - (void) makeSome;
@@ -34,6 +35,8 @@
 - (void)sampleMethod{
     NSString *str = @"dsadsads";
     NSString *str2=[str stringByAppendingString:@"12321"];
+    NSString *str3=[str2 substringToIndex:0 ];
+    NSLog(@"str3: %@", str3);
     NSLog(@"%@", str2);
     NSLog(@"Hello %@| you are %d years old", self.name, self.age);
 }
@@ -66,6 +69,8 @@ int main(int argc, const char * argv[]) {
         [sampleClass makeSome];
         [sampleClass methodWithOneArg:30];
         [sampleClass methodWithTwoArg:20 aaa:40];
+        
+        printLs();
     }
     return 0;
 }
