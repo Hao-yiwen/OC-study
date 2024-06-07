@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		390710DF2C12D0730003CBF5 /* Subclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 390710DE2C12D0730003CBF5 /* Subclass.m */; };
 		39599C3B2C117916000311EA /* printLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 39599C3A2C117916000311EA /* printLs.m */; };
+		F61550942C132DDF0006C5A2 /* AbstractClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550932C132DDF0006C5A2 /* AbstractClass.m */; };
+		F61550972C13308A0006C5A2 /* DirectClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550962C13308A0006C5A2 /* DirectClass.m */; };
+		F61550992C1332B30006C5A2 /* SelectorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550982C1332B30006C5A2 /* SelectorClass.m */; };
+		F615509E2C133B160006C5A2 /* MyDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F615509D2C133B160006C5A2 /* MyDatabase.m */; };
+		F61550A12C133D100006C5A2 /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550A02C133D100006C5A2 /* MyPerson.m */; };
+		F61550A72C1359FC0006C5A2 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550A62C1359FC0006C5A2 /* Printer.m */; };
 		F627781F2C10CD4200A07056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F627781E2C10CD4200A07056 /* main.m */; };
 		F673E5482C122244004FA015 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F673E5472C122244004FA015 /* Fraction.m */; };
 		F6912E272C122BA8001FED80 /* printOc.m in Sources */ = {isa = PBXBuildFile; fileRef = F6912E262C122BA8001FED80 /* printOc.m */; };
@@ -34,6 +40,20 @@
 		390710DE2C12D0730003CBF5 /* Subclass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subclass.m; sourceTree = "<group>"; };
 		39599C3A2C117916000311EA /* printLs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printLs.m; sourceTree = "<group>"; };
 		39599C3C2C117AC6000311EA /* printLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printLs.h; sourceTree = "<group>"; };
+		F61550922C132D110006C5A2 /* AbstractClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractClass.h; sourceTree = "<group>"; };
+		F61550932C132DDF0006C5A2 /* AbstractClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractClass.m; sourceTree = "<group>"; };
+		F61550952C13307E0006C5A2 /* DirectClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectClass.h; sourceTree = "<group>"; };
+		F61550962C13308A0006C5A2 /* DirectClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectClass.m; sourceTree = "<group>"; };
+		F61550982C1332B30006C5A2 /* SelectorClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectorClass.m; sourceTree = "<group>"; };
+		F615509A2C1334970006C5A2 /* SelectorClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectorClass.h; sourceTree = "<group>"; };
+		F615509C2C133B0A0006C5A2 /* MyDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDatabase.h; sourceTree = "<group>"; };
+		F615509D2C133B160006C5A2 /* MyDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDatabase.m; sourceTree = "<group>"; };
+		F615509F2C133D070006C5A2 /* MyPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPerson.h; sourceTree = "<group>"; };
+		F61550A02C133D100006C5A2 /* MyPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPerson.m; sourceTree = "<group>"; };
+		F61550A22C1351710006C5A2 /* macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		F61550A32C13562C0006C5A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F61550A52C1359F20006C5A2 /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		F61550A62C1359FC0006C5A2 /* Printer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
 		F627781B2C10CD4200A07056 /* OC-basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-basic"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F627781E2C10CD4200A07056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F673E5462C122239004FA015 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
@@ -59,6 +79,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F615509B2C133AF70006C5A2 /* DataArg */ = {
+			isa = PBXGroup;
+			children = (
+				F615509C2C133B0A0006C5A2 /* MyDatabase.h */,
+				F615509D2C133B160006C5A2 /* MyDatabase.m */,
+				F615509F2C133D070006C5A2 /* MyPerson.h */,
+				F61550A02C133D100006C5A2 /* MyPerson.m */,
+			);
+			path = DataArg;
+			sourceTree = "<group>";
+		};
+		F61550A42C1359DB0006C5A2 /* variable */ = {
+			isa = PBXGroup;
+			children = (
+				F61550A52C1359F20006C5A2 /* Printer.h */,
+				F61550A62C1359FC0006C5A2 /* Printer.m */,
+			);
+			path = variable;
+			sourceTree = "<group>";
+		};
+		F61550A82C135A540006C5A2 /* class_bisic */ = {
+			isa = PBXGroup;
+			children = (
+				F673E5462C122239004FA015 /* Fraction.h */,
+				F673E5472C122244004FA015 /* Fraction.m */,
+				F6912E292C122E96001FED80 /* Fraction+Extra.h */,
+				F6912E2A2C122EA4001FED80 /* Fraction+Extra.m */,
+				390710DD2C12D0630003CBF5 /* Subclass.h */,
+				390710DE2C12D0730003CBF5 /* Subclass.m */,
+				F61550922C132D110006C5A2 /* AbstractClass.h */,
+				F61550932C132DDF0006C5A2 /* AbstractClass.m */,
+				F61550952C13307E0006C5A2 /* DirectClass.h */,
+				F61550962C13308A0006C5A2 /* DirectClass.m */,
+				F61550982C1332B30006C5A2 /* SelectorClass.m */,
+				F615509A2C1334970006C5A2 /* SelectorClass.h */,
+			);
+			path = class_bisic;
+			sourceTree = "<group>";
+		};
 		F62778122C10CD4200A07056 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +140,7 @@
 				F6912E252C122B8B001FED80 /* base */,
 				F6912E242C122B79001FED80 /* oc_class */,
 				F627781E2C10CD4200A07056 /* main.m */,
+				F61550A32C13562C0006C5A2 /* PrefixHeader.pch */,
 			);
 			path = "OC-basic";
 			sourceTree = "<group>";
@@ -88,14 +148,12 @@
 		F6912E242C122B79001FED80 /* oc_class */ = {
 			isa = PBXGroup;
 			children = (
-				F673E5462C122239004FA015 /* Fraction.h */,
-				F673E5472C122244004FA015 /* Fraction.m */,
+				F61550A82C135A540006C5A2 /* class_bisic */,
+				F61550A42C1359DB0006C5A2 /* variable */,
+				F615509B2C133AF70006C5A2 /* DataArg */,
 				F6912E262C122BA8001FED80 /* printOc.m */,
 				F6912E282C122BCA001FED80 /* printOc.h */,
-				F6912E292C122E96001FED80 /* Fraction+Extra.h */,
-				F6912E2A2C122EA4001FED80 /* Fraction+Extra.m */,
-				390710DD2C12D0630003CBF5 /* Subclass.h */,
-				390710DE2C12D0730003CBF5 /* Subclass.m */,
+				F61550A22C1351710006C5A2 /* macro.h */,
 			);
 			path = oc_class;
 			sourceTree = "<group>";
@@ -171,13 +229,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F142E12C120B82008DD576 /* controller.m in Sources */,
+				F61550A12C133D100006C5A2 /* MyPerson.m in Sources */,
 				39599C3B2C117916000311EA /* printLs.m in Sources */,
+				F615509E2C133B160006C5A2 /* MyDatabase.m in Sources */,
 				F627781F2C10CD4200A07056 /* main.m in Sources */,
+				F61550972C13308A0006C5A2 /* DirectClass.m in Sources */,
+				F61550942C132DDF0006C5A2 /* AbstractClass.m in Sources */,
 				F6F142E32C121162008DD576 /* operation.m in Sources */,
 				F6912E2B2C122EA4001FED80 /* Fraction+Extra.m in Sources */,
 				390710DF2C12D0730003CBF5 /* Subclass.m in Sources */,
 				F673E5482C122244004FA015 /* Fraction.m in Sources */,
 				F6912E272C122BA8001FED80 /* printOc.m in Sources */,
+				F61550A72C1359FC0006C5A2 /* Printer.m in Sources */,
+				F61550992C1332B30006C5A2 /* SelectorClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +369,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84F8R9TAQN;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OC-basic/PrefixHeader.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -315,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84F8R9TAQN;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
