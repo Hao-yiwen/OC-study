@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
 #import "Fraction+Extra.h"
+#import "Subclass.h"
 
 void printOc(void){
     Fraction* fraction=[[Fraction alloc] init];
@@ -23,4 +24,8 @@ void printOc(void){
     [fraction1 showStatic];
     [fraction1 increament];
     [fraction1 showStatic];
+    
+    Subclass* subclass=[[Subclass alloc]init];
+    [subclass initV];
+    [subclass distPlayVars];
 }

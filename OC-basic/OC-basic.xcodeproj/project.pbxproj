@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390710DF2C12D0730003CBF5 /* Subclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 390710DE2C12D0730003CBF5 /* Subclass.m */; };
 		39599C3B2C117916000311EA /* printLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 39599C3A2C117916000311EA /* printLs.m */; };
 		F627781F2C10CD4200A07056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F627781E2C10CD4200A07056 /* main.m */; };
 		F673E5482C122244004FA015 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F673E5472C122244004FA015 /* Fraction.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		390710DD2C12D0630003CBF5 /* Subclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subclass.h; sourceTree = "<group>"; };
+		390710DE2C12D0730003CBF5 /* Subclass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subclass.m; sourceTree = "<group>"; };
 		39599C3A2C117916000311EA /* printLs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printLs.m; sourceTree = "<group>"; };
 		39599C3C2C117AC6000311EA /* printLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printLs.h; sourceTree = "<group>"; };
 		F627781B2C10CD4200A07056 /* OC-basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-basic"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +94,8 @@
 				F6912E282C122BCA001FED80 /* printOc.h */,
 				F6912E292C122E96001FED80 /* Fraction+Extra.h */,
 				F6912E2A2C122EA4001FED80 /* Fraction+Extra.m */,
+				390710DD2C12D0630003CBF5 /* Subclass.h */,
+				390710DE2C12D0730003CBF5 /* Subclass.m */,
 			);
 			path = oc_class;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				F627781F2C10CD4200A07056 /* main.m in Sources */,
 				F6F142E32C121162008DD576 /* operation.m in Sources */,
 				F6912E2B2C122EA4001FED80 /* Fraction+Extra.m in Sources */,
+				390710DF2C12D0730003CBF5 /* Subclass.m in Sources */,
 				F673E5482C122244004FA015 /* Fraction.m in Sources */,
 				F6912E272C122BA8001FED80 /* printOc.m in Sources */,
 			);
