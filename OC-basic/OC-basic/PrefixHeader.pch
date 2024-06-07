@@ -1,0 +1,7 @@
+// PrefixHeader.pch
+// 预编译定义全局NSLog
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr, "debug: %s:%d: %s\n", __func__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
