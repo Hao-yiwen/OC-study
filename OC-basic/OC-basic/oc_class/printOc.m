@@ -6,7 +6,7 @@
 //
 #import "printOc.h"
 
-void functionExample(){
+void functionExample(void){
     NSLog(@"functionExample 11111");
 }
 
@@ -114,4 +114,10 @@ void printOc(void){
     NSLog(@"type is %@", printer->_type);
     NSLog(@"str is %@", printer.str);
 //    NSLog(@"count is %d", printer->_count);
+    
+    Color favoriteColor = Blue;
+    NSLog(@"favoriteColor is %d", favoriteColor);
+    
+    Color1 favoriteColor1 = Blue1;
+    NSLog(@"favoriteColor1 is %ld", (long)favoriteColor1);
 }

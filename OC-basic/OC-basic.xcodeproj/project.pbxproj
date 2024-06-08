@@ -15,6 +15,11 @@
 		F615509E2C133B160006C5A2 /* MyDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F615509D2C133B160006C5A2 /* MyDatabase.m */; };
 		F61550A12C133D100006C5A2 /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550A02C133D100006C5A2 /* MyPerson.m */; };
 		F61550A72C1359FC0006C5A2 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550A62C1359FC0006C5A2 /* Printer.m */; };
+		F61550AB2C13EFFC0006C5A2 /* EnumExample.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550AA2C13EFFC0006C5A2 /* EnumExample.m */; };
+		F61550AF2C14672A0006C5A2 /* SamepleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550AE2C14672A0006C5A2 /* SamepleClass.m */; };
+		F61550B32C1473790006C5A2 /* Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550B22C1473790006C5A2 /* Exception.m */; };
+		F61550B62C1498D90006C5A2 /* NsvalueClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550B52C1498D90006C5A2 /* NsvalueClass.m */; };
+		F61550BB2C14A2D10006C5A2 /* BlockClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F61550BA2C14A2D10006C5A2 /* BlockClass.m */; };
 		F627781F2C10CD4200A07056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F627781E2C10CD4200A07056 /* main.m */; };
 		F673E5482C122244004FA015 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F673E5472C122244004FA015 /* Fraction.m */; };
 		F6912E272C122BA8001FED80 /* printOc.m in Sources */ = {isa = PBXBuildFile; fileRef = F6912E262C122BA8001FED80 /* printOc.m */; };
@@ -54,6 +59,16 @@
 		F61550A32C13562C0006C5A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F61550A52C1359F20006C5A2 /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
 		F61550A62C1359FC0006C5A2 /* Printer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		F61550A92C13EFE70006C5A2 /* EnumExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumExample.h; sourceTree = "<group>"; };
+		F61550AA2C13EFFC0006C5A2 /* EnumExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumExample.m; sourceTree = "<group>"; };
+		F61550AD2C14671D0006C5A2 /* SampleClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleClass.h; sourceTree = "<group>"; };
+		F61550AE2C14672A0006C5A2 /* SamepleClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamepleClass.m; sourceTree = "<group>"; };
+		F61550B12C14736E0006C5A2 /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		F61550B22C1473790006C5A2 /* Exception.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exception.m; sourceTree = "<group>"; };
+		F61550B52C1498D90006C5A2 /* NsvalueClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NsvalueClass.m; sourceTree = "<group>"; };
+		F61550B72C1498E70006C5A2 /* NsvalueClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NsvalueClass.h; sourceTree = "<group>"; };
+		F61550B92C14A2C30006C5A2 /* BlockClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockClass.h; sourceTree = "<group>"; };
+		F61550BA2C14A2D10006C5A2 /* BlockClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockClass.m; sourceTree = "<group>"; };
 		F627781B2C10CD4200A07056 /* OC-basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC-basic"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F627781E2C10CD4200A07056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F673E5462C122239004FA015 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
@@ -95,6 +110,8 @@
 			children = (
 				F61550A52C1359F20006C5A2 /* Printer.h */,
 				F61550A62C1359FC0006C5A2 /* Printer.m */,
+				F61550A92C13EFE70006C5A2 /* EnumExample.h */,
+				F61550AA2C13EFFC0006C5A2 /* EnumExample.m */,
 			);
 			path = variable;
 			sourceTree = "<group>";
@@ -118,6 +135,42 @@
 			path = class_bisic;
 			sourceTree = "<group>";
 		};
+		F61550AC2C1467070006C5A2 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F61550AD2C14671D0006C5A2 /* SampleClass.h */,
+				F61550AE2C14672A0006C5A2 /* SamepleClass.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		F61550B02C1473500006C5A2 /* exception */ = {
+			isa = PBXGroup;
+			children = (
+				F61550B12C14736E0006C5A2 /* Exception.h */,
+				F61550B22C1473790006C5A2 /* Exception.m */,
+			);
+			path = exception;
+			sourceTree = "<group>";
+		};
+		F61550B42C14989C0006C5A2 /* nsvalue */ = {
+			isa = PBXGroup;
+			children = (
+				F61550B52C1498D90006C5A2 /* NsvalueClass.m */,
+				F61550B72C1498E70006C5A2 /* NsvalueClass.h */,
+			);
+			path = nsvalue;
+			sourceTree = "<group>";
+		};
+		F61550B82C14A2A50006C5A2 /* block */ = {
+			isa = PBXGroup;
+			children = (
+				F61550B92C14A2C30006C5A2 /* BlockClass.h */,
+				F61550BA2C14A2D10006C5A2 /* BlockClass.m */,
+			);
+			path = block;
+			sourceTree = "<group>";
+		};
 		F62778122C10CD4200A07056 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +190,9 @@
 		F627781D2C10CD4200A07056 /* OC-basic */ = {
 			isa = PBXGroup;
 			children = (
+				F61550B82C14A2A50006C5A2 /* block */,
+				F61550B42C14989C0006C5A2 /* nsvalue */,
+				F61550B02C1473500006C5A2 /* exception */,
 				F6912E252C122B8B001FED80 /* base */,
 				F6912E242C122B79001FED80 /* oc_class */,
 				F627781E2C10CD4200A07056 /* main.m */,
@@ -148,6 +204,7 @@
 		F6912E242C122B79001FED80 /* oc_class */ = {
 			isa = PBXGroup;
 			children = (
+				F61550AC2C1467070006C5A2 /* protocol */,
 				F61550A82C135A540006C5A2 /* class_bisic */,
 				F61550A42C1359DB0006C5A2 /* variable */,
 				F615509B2C133AF70006C5A2 /* DataArg */,
@@ -228,18 +285,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F61550BB2C14A2D10006C5A2 /* BlockClass.m in Sources */,
 				F6F142E12C120B82008DD576 /* controller.m in Sources */,
 				F61550A12C133D100006C5A2 /* MyPerson.m in Sources */,
+				F61550B32C1473790006C5A2 /* Exception.m in Sources */,
 				39599C3B2C117916000311EA /* printLs.m in Sources */,
 				F615509E2C133B160006C5A2 /* MyDatabase.m in Sources */,
+				F61550B62C1498D90006C5A2 /* NsvalueClass.m in Sources */,
 				F627781F2C10CD4200A07056 /* main.m in Sources */,
 				F61550972C13308A0006C5A2 /* DirectClass.m in Sources */,
+				F61550AF2C14672A0006C5A2 /* SamepleClass.m in Sources */,
 				F61550942C132DDF0006C5A2 /* AbstractClass.m in Sources */,
 				F6F142E32C121162008DD576 /* operation.m in Sources */,
 				F6912E2B2C122EA4001FED80 /* Fraction+Extra.m in Sources */,
 				390710DF2C12D0730003CBF5 /* Subclass.m in Sources */,
 				F673E5482C122244004FA015 /* Fraction.m in Sources */,
 				F6912E272C122BA8001FED80 /* printOc.m in Sources */,
+				F61550AB2C13EFFC0006C5A2 /* EnumExample.m in Sources */,
 				F61550A72C1359FC0006C5A2 /* Printer.m in Sources */,
 				F61550992C1332B30006C5A2 /* SelectorClass.m in Sources */,
 			);
