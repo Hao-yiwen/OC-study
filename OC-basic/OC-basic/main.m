@@ -10,53 +10,10 @@
 #import "controller.h"
 #import "operation.h"
 #import "printOc.h"
-
-@protocol Test <NSObject>
-- (void) makeSome;
-@end
-
-@interface SampleClass : NSObject <Test>
-@property (nonatomic,strong) NSString *name;
-@property (nonatomic,assign) int age;
-- (instancetype)init;
-
-- (void)sampleMethod;
-- (void)methodWithOneArg:(int)arg;
-- (void)methodWithTwoArg:(int)arg1 aaa:(int)arg2;
-@end
-
-@implementation SampleClass
-- (instancetype)init{
-    self = [super init];
-    if(self){
-        self.name = @"name";
-        self.age = 30;
-    }
-    return self;
-}
-
-- (void)sampleMethod{
-    NSString *str = @"dsadsads";
-    NSString *str2=[str stringByAppendingString:@"12321"];
-    NSString *str3=[str2 substringToIndex:0 ];
-    NSLog(@"str3: %@", str3);
-    NSLog(@"%@", str2);
-    NSLog(@"Hello %@| you are %d years old", self.name, self.age);
-}
-- (void)makeSome { 
-    NSLog(@"make some achieve...");
-}
-
-- (void)methodWithTwoArg:(int)arg1 aaa:(int)arg2 {
-    NSLog(@"你有两个参数 %d %d", arg1, arg2);
-}
-
-- (void)methodWithOneArg:(int)arg {
-    NSLog(@"当前只有一个参数 %d", arg);
-}
-
-@end
-
+#import "SampleClass.h"
+#import "Exception.h"
+#import "NsvalueClass.h"
+#import "BlockClass.h"
 
 int main(int argc, const char * argv[]) {
 //    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
@@ -80,6 +37,18 @@ int main(int argc, const char * argv[]) {
         printOperation();
         // oc对象部分学习
         printOc();
+        
+        // Exception
+        ExceptionClass* exceptionClass = [[ExceptionClass alloc] init];
+        [exceptionClass exceptionThrow];
+        
+        // nsvalue
+        NsvalueClass* nsvalueClass = [[NsvalueClass alloc] init];
+        [nsvalueClass run];
+        
+        BlockClass* blockClass = [[BlockClass alloc] init];
+        [blockClass blockTest];
+        [blockClass baseTypeTest];
     }
     return 0;
 }

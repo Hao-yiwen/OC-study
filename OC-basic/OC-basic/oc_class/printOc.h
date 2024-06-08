@@ -18,6 +18,7 @@
 #import "MyPerson.h"
 #import "macro.h"
 #import "Printer.h"
+#import "EnumExample.h"
 
 void printOc(void);
 
